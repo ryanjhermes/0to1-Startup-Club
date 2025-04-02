@@ -54,7 +54,7 @@
   
   .zeroone-logo {
     width: 100%;
-    width: 500px;
+    max-width: 500px;
     height: auto;
     margin-bottom: 0.5rem;
   }
