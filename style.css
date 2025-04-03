@@ -104,6 +104,32 @@
     align-items: center;
     gap: 0.5rem;
   }
+  .register-button-container {
+    text-align: center;
+    margin: 0rem;
+  }
+  
+  .register-button {
+    display: inline-block;
+    padding: 0.5rem 1rem; /* smaller padding */
+    font-size: 1rem;      /* smaller font size */
+    font-weight: bold;
+    color: #fcfcfc;
+    background-color: #6bc4ee; 
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #619bbb; /* slightly transparent on hover */
+  }
+  
+  
+  .additional-links {
+    text-align: center;
+    font-size: 1rem;
+  }
   
   /* Section styles */
   .section {
