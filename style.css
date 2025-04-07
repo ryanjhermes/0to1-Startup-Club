@@ -277,6 +277,25 @@
       justify-content: flex-start;
     }
   }
+
+  .social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 1rem; /* spacing between social links */
+  }
+  
+  .social-logo {
+    height: 20px; /* adjust size as needed */
+    width: auto;
+    margin-bottom: 0.25rem;
+  }
+  
+  .social-label {
+    font-size: 0.7rem; /* adjust font size if necessary */
+  }  
   
   @media (max-width: 480px) {
     .startupclub-title {
