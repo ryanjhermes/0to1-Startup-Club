@@ -83,20 +83,19 @@
   }
   
   .startupclub-button {
-    background-color: #000;
-    color: #fff;
+    background-color: #ffcc33;  /* new yellow */
+    color: #241f19;             /* ensure contrast—adjust if needed */
     padding: 0.75rem 1.5rem;
     border-radius: 999px;
     text-decoration: none;
+    font-weight: bold;
     font-weight: 500;
     transition: background-color 0.2s ease;
     display: inline-block;
-    margin: 0 auto;    /* Auto margins center it horizontally */
-    text-align: center;
   }
   
   .startupclub-button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #e6b82a;  /* slightly darker on hover */
   }
   
   .button-content {
@@ -295,6 +294,18 @@
   
   .social-label {
     font-size: 0.7rem; /* adjust font size if necessary */
+  }  
+
+  .featured-image-container {
+    text-align: center;
+    margin-top: 1rem; /* space above the image */
+  }
+  
+  .featured-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px; /* optional */
+    cursor: pointer;    /* indicates it’s clickable */
   }  
   
   @media (max-width: 480px) {
