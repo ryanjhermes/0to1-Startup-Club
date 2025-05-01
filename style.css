@@ -306,6 +306,12 @@
     height: auto;
     border-radius: 8px; /* optional */
     cursor: pointer;    /* indicates it’s clickable */
+  }
+  .due-text {
+    text-align: center;
+    margin-top: -1.5rem;
+    font-size: 0.9rem;
+    color: #555; /* or any color you prefer */
   }  
   
   @media (max-width: 480px) {
